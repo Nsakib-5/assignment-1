@@ -1,0 +1,374 @@
+
+*{margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 15px 28px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: blue;
+}
+
+.section-heading {
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.section-heading h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+/* header section */
+
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.banner .banner-text * {
+  margin-bottom: 32px;
+  max-width: 525px;
+}
+
+.banner .banner-text h1 {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.banner .banner-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* feature section */
+
+#featured-flowers {
+  padding: 100px 0;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: end;
+}
+
+.section-content .flower-img {
+  border-radius: 300px 300px 0px 0px;
+  padding: 0px 25px;
+  height: 500px;
+  display: flex;
+  align-items: end;
+}
+
+.section-content .flower-img img {
+  width: 100%;
+}
+
+#first-flower {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+#second-flower {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+
+#third-flower {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin-top: 16px;
+}
+
+/* services */
+
+.services {
+  background: #f4f4f4;
+  margin: 50px 180px;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.services p {
+  font-size: 22px;
+  color: #272727CC;
+  font-weight: 600;
+}
+
+/* hot deal */
+
+.sale {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+.hot-deal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.hot-deal .hot-deal-text {
+  width: 75%;
+  max-width: 445px;
+  text-align: center;
+}
+
+.hot-deal .hot-deal-text * {
+  margin-bottom: 24px;
+}
+
+.hot-deal .hot-deal-text h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.sale .hot-deal-img {
+  width: 318px;
+}
+
+/* instagram image style */
+
+.instagram-container {
+  margin-top: 100px;
+}
+
+.instagram-content {
+  display: flex;
+  justify-content: center;
+  margin: 0 100px;
+}
+
+.instagram-content img {
+  margin-right: 10px;
+}
+
+/* newslater */
+#newsletter {
+  margin: 128px 0;
+}
+
+.newsletter-main {
+  background-image: url("../images/Rectangle\ 9.png");
+  padding: 122px 0;
+  background-repeat: no-repeat;
+}
+
+#newsletter form {
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+}
+
+#newsletter form input {
+  flex-grow: 1;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 15px;
+  outline: none;
+}
+
+/* footer */
+footer {
+  color: #fff;
+  background: #111010;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.footer-text .flower-text {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-text .shop-text {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-text p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-para {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+}
+
+.all-rights {
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column-reverse; 
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .banner .banner-text * {
+    margin-bottom: 20px; 
+    max-width: 100%; 
+    text-align: center;
+  }
+
+  .banner .banner-text h1 {
+    font-size: 36px; 
+  }
+  .section-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-content .flower-img {
+    border-radius: 300px 300px 0 0; 
+    padding: 0;
+    height: auto;
+  }
+
+  .section-content .flower p {
+    font-size: 18px; 
+    line-height: 25px; 
+    margin-top: 10px; 
+  }
+  .services {
+    flex-direction: column; 
+    margin: 30px 0; 
+    padding: 30px; 
+    gap: 20px; 
+    text-align: center; 
+  }
+
+  .services > div {
+    width: 100%; 
+  }
+
+  .services p {
+    font-size: 18px;
+  }
+  .hot-deal {
+    padding: 60px 0;
+    flex-direction: column; 
+  }
+
+  .hot-deal .hot-deal-text {
+    width: 100%; 
+    max-width: none; 
+  }
+
+   .hot-deal-img {
+    width: 100%; 
+  }
+
+  .hot-deal .hot-deal-text h2 {
+    font-size: 30px; 
+  }
+  .instagram-container {
+    margin-top: 50px; 
+  }
+
+  .instagram-content {
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    margin: 0 20px; 
+  }
+
+  .instagram-content img {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+    width: 50%; 
+  }
+  #newsletter {
+    margin: 64px 0; 
+  }
+
+  .newsletter-main {
+    padding: 64px 0; 
+  }
+
+  #newsletter form {
+    flex-direction: column;
+    gap: 20px; 
+  }
+
+  #newsletter form input {
+    width: 100%;
+  }
+  footer {
+    padding: 24px 0; 
+  }
+
+  .footer-text .flower-text,
+  .footer-text .shop-text {
+    font-size: 32px; 
+  }
+
+  .footer-para {
+    font-size: 14px; 
+    line-height: 24px;
+    margin-top: 16px; 
+  }
+
+  .all-rights {
+    font-size: 12px; 
+    margin-top: 24px; 
+  }
+}
